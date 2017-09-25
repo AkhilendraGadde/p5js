@@ -4,7 +4,7 @@ function Signzy() {
   var vel;
   this.ellip = createVector(random(width),random(height));
   this.vel = createVector(random(-1,1),random(-1,1));
-  var elx = random(2,6);
+  var elx = random(1,6);
 
   this.loc = function()  {
     this.ellip.add(this.vel);
